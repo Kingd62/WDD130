@@ -1,0 +1,13 @@
+.circle {
+width: 100px;
+height: 100px;
+background-color: rgb(23, 109, 214);
+border-radius: 50%;
+ }   
+ .square {
+width:100px ;
+height: 100px;
+background-color: rgb(205, 205, 48);
+margin: px50;
+border-radius: 50%
+ }

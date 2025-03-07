@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post Card</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #333;
+        }
+        .card {
+            width: 320px;
+            border-radius: 15px;
+            overflow: hidden;
+            background: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+        .card img {
+            width: 100%;
+            height: auto;
+        }
+        .card-content {
+            padding: 15px;
+        }
+        .card-content h2 {
+            margin: 10px 0;
+        }
+        .card-content p {
+            color: #888;
+        }
+        .footer {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            background-color: #2C3E50;
+            color: white;
+            padding: 10px 0;
+        }
+        .footer div {
+            text-align: center;
+        }
+        .footer span {
+            display: block;
+            font-size: 1.2rem;
+            font-weight: bold;
+        }
+        .footer small {
+            font-size: 0.8rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <img src="TheBrooklynbridge.jpg" alt=" The Brooklyn bridge">
+        <div class="card-content">
+            <p style="color: #3498db; font-size: 0.9rem;">3 weeks ago</p>
+            <h2><strong>The Brooklyn Bridge</strong></h2>
+            <p>
+                The Brooklyn Bridge is an iconic suspension bridge that connects the boroughs of Manhattan and Brooklyn in New York City. 
+                Completed in 1883, it was the longest suspension bridge in the world at the time and a marvel of engineering. 
+                Designed by John A. Roebling, the bridge features a stunning combination of stone towers and steel cables, making it one of the most recognizable landmarks in the city. 
+                Today, it serves as both a vital transportation route and a popular tourist attraction, offering breathtaking views of the New York skyline and the East River.
+            </p>
+        </div>
+        <div class="footer">
+            <div>
+                <span>7<sup>Mil</sup></span>
+                <small>READ</small>
+            </div>
+            <div>
+                <span>5406</span>
+                <small>VIEWS</small>
+            </div>
+            <div>
+                <span>9</span>
+                <small>COMMENTS</small>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,120 @@
+@import
+    url('https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap');
+    @import
+    url('https://fonts.googleapis.com/css2?family=Neuton&display=swap');
+body {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Neuton','Joan';
+
+}
+main section{
+    text-align: center;
+}
+
+header {
+    background-color: rgb(108, 127, 112);
+    
+}
+
+
+nav a{
+    text-align: center;
+    color: rgb(22, 22, 22);
+    text-decoration: none;
+    padding: 35px;
+
+}
+nav a :hover {
+    background-color: rgb(133, 89, 23);
+    color: rgb(111, 101, 47);
+}
+.logo{
+    width: 85px; 
+    padding-top: 5px;
+}
+
+
+#rafting-img{
+    width: 100%;
+    
+}
+#hero-msg h1 {
+    text-align: center;
+color: rgb(0, 0, 0);
+font-family: 'Rubik Dirt';
+font-size: 2em;
+margin-top: 10px;
+}
+#hero-msg h4 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+.msg {
+    background-color: rgb(108, 127, 112);
+    line-height: 1.5em;
+}
+.msg h2{color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 35px;
+}
+.msg p {color: rgb(255, 255, 255);
+    font-size: 0.8em;
+    padding-bottom: 15px;
+}
+.button-box {
+    text-align: center;
+}
+
+#background {
+    height: 725px;
+    background-color: rgb(215, 183, 118);
+}
+
+.book, .join {
+   background-color: rgba(215, 183, 118);
+   color: rgb(75, 95, 71);
+   text-decoration: none;
+   text-align: center;
+   font-size: 1.2em;
+   padding: 15px 30px;
+   margin-top: 50px;
+   border-radius: 5px
+}
+.book:hover, .join:hover{
+    background-color: rgb(38, 57, 142);
+    color: rgb(255, 255, 255);
+}
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
+}
+.card-img{
+    border: 10px solid rgb(215, 183, 118);
+}
+main section img{
+    box-sizing: border-box;
+}
+.icon{
+    width: 75px;
+    padding-top: 10px;
+}
+footer {
+    background-color: rgb(108, 127, 112);
+    color: rgb(255, 255, 255);
+    padding: 25px 50px;
+    margin-top: 200px;
+}
+footer a{color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+footer a :hover{color: rgb(0, 0, 0);
+}
+footer p {
+    font-size: 1.1em;
+
+} 
+footer a p:hover {
+    text-decoration: underline;
+}

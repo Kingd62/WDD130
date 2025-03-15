@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Settings</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Shared Header -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="page2.html">Weather Forecast</a></li>
+                <li><a href="page3.html">Settings</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content for Page 3 -->
+    <main>
+        <h1>User Settings</h1>
+        <p>Set your preferences for the weather app.</p>
+
+        <!-- Settings Form -->
+        <form id="settings-form">
+            <label for="favorite-city">Favorite City:</label>
+            <input type="text" id="favorite-city" placeholder="Enter city" />
+            <br>
+            <label for="temperature-unit">Temperature Unit:</label>
+            <select id="temperature-unit">
+                <option value="metric">Celsius</option>
+                <option value="imperial">Fahrenheit</option>
+            </select>
+            <br>
+            <button type="submit">Save Settings</button>
+        </form>
+    </main>
+
+    <!-- Shared Footer -->
+    <footer>
+        <p>&copy; 2025 Weather Dashboard | All Rights Reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

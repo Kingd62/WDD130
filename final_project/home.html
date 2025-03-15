@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Shared Header -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="page2.html">Weather Forecast</a></li>
+                <li><a href="page3.html">Settings</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content for Home -->
+    <main>
+        <h1>Weather Dashboard</h1>
+        <input type="text" id="city-input" placeholder="Enter city" />
+        <button id="search-button">Search</button>
+
+        <div id="weather-info">
+            <h2 id="city-name"></h2>
+            <p id="temperature"></p>
+            <p id="humidity"></p>
+            <p id="wind-speed"></p>
+        </div>
+
+        <div id="forecast">
+            <!-- 7-day forecast will be displayed here -->
+        </div>
+    </main>
+
+    <!-- Shared Footer -->
+    <footer>
+        <p>&copy; 2025 Weather Dashboard | All Rights Reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -2,13 +2,14 @@
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a | */
 @import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
+@import url(https://coolors.co/c5fe34-db5aba-f7f4f3-040f16);
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #396E94   ;
-  --secondary-color: #E7C24F ;
-  --accent1-color: #A42212;
-  --accent2-color: white;
+  --primary-color: #040f16   ;
+  --secondary-color: #db5aba;
+  --accent1-color: #c5fe34;
+  --accent2-color: #f7f4f3;
 
   /* change the values below to your chosen font(s) */
   --heading-font: "IM Fell French Canon SC";

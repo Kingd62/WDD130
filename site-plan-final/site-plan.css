@@ -6,8 +6,8 @@ Fonts are separated by a | */
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #040f16   ;
-  --secondary-color: #db5aba;
+  --primary-color:  #323335;
+  --secondary-color:#db5aba;
   --accent1-color: #c5fe34;
   --accent2-color: #f7f4f3;
 
@@ -16,13 +16,13 @@ Fonts are separated by a | */
   --paragraph-font: Lato, Helvetica, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #396E94;  /* headlines on a white background */ 
-  --headline-color-on-color: white; /* headlines on a colored background */ 
-  --paragraph-color-on-white: #396E94; /* paragraph text on a white background */ 
-  --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
+  --headline-color-on-white: #db5aba;  /* headlines on a white background */ 
+  --headline-color-on-color: rgb(255, 255, 255); /* headlines on a colored background */ 
+  --paragraph-color-on-white: #f7f4f3; /* paragraph text on a white background */ 
+  --paragraph-color-on-color: #c5fe34; /* paragraph text on a colored background */ 
   --paragraph-background-color: #396E94  ;
-  --nav-link-color: #396E94;
-  --nav-background-color: #D4AC0D;
+  --nav-link-color: #f7f4f3;
+  --nav-background-color: #db5aba;
   --nav-hover-link-color: white;
   --nav-hover-background-color: #396E94;
 }
@@ -36,6 +36,7 @@ body {
   padding: 4em;
   font-size: 18px;
   text-align: center;
+  background-color: var(--primary-color)
 }
 img {
   display: block;
